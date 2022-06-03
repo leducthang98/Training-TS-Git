@@ -1,8 +1,7 @@
 import { Student } from './Student';
 
 // const hello: string = 'Hello'
-const student: Student = new Student('Thang');
-const student1: Student = new Student('Thangg');
+const student: Student = new Student(1);
 console.log(student.getName());
-console.log(Student.getInfo());
-console.log(student1);
+console.log(Student.getInfo(student));
+console.log(Student.aboutRestParameters('rest','a','b','c'));

@@ -2,12 +2,24 @@ export class Student {
   private name: string;
   private static age?: number = 10;
 
-  constructor(name: string) {
-    this.name = name;
+  // overload
+  public constructor(name: string)
+  public constructor(name: number)
+  public constructor(name: string | number) {
+    if (typeof name === 'string') {
+      this.name = 'String Type constructor'
+    } else {
+      this.name = 'Number Type constructor'
+    }
   }
 
-  static getInfo(): string {
-    return `static ${this.age}`;
+  // rest parameters
+  static aboutRestParameters(info: string, ...params: string[]) {
+    return `${info}, ${params.length}`
+  }
+
+  static getInfo(student: Student): string {
+    return `info: ${student.name}`;
   }
 
   getName(): string {
