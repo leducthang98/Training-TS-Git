@@ -47,3 +47,14 @@ const typeSample: D = {
 };
 console.log(typeSample);
 typeSample.display('TYPE SAMPLE');
+
+type Data = {
+  name?: string
+}
+
+const dataSample: Data = {
+  name: 'a'
+}
+
+const nameA: string = dataSample.name!
+console.log('aa', nameA)
