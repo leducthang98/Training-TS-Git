@@ -49,12 +49,12 @@ console.log(typeSample);
 typeSample.display('TYPE SAMPLE');
 
 type Data = {
-  name?: string
-}
+  name?: string;
+};
 
 const dataSample: Data = {
-  name: 'a'
-}
+  name: 'a',
+};
 
-const nameA: string = dataSample.name!
-console.log('aa', nameA)
+const nameA: string = dataSample.name!;
+console.log('aa', nameA);
