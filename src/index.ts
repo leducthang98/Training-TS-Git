@@ -58,3 +58,5 @@ const dataSample: Data = {
 
 const nameA: string = dataSample.name!;
 console.log('aa', nameA);
+
+console.log("Thang")
