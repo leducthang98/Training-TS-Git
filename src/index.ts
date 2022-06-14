@@ -62,3 +62,5 @@ console.log('aa', nameA);
 console.log("Thang")
 console.log("Commit1")
 console.log("Commit2")
+console.log("Commit3")
+console.log("Commit4")
