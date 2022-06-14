@@ -60,3 +60,4 @@ const nameA: string = dataSample.name!;
 console.log('aa', nameA);
 
 console.log("Thang")
+console.log("Commit1")
