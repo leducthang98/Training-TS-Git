@@ -1,5 +1,5 @@
 export class Student {
-  private name: string;
+  private readonly name: string;
   private static age?: number = 10;
 
   // overload
